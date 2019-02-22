@@ -15,21 +15,24 @@
  */
 
 body {
-	background-color: #FFFFFF;
+	background-color: #f7f7f7;
 }
 h1{
-	color: yellow;
+	color: #eeee22;
+	background-color: #1bb4d3;
+	font-family: "Impact";
 	text-align: center;
-	margin: 50px 300px 50px 300px;
-	background-color: aqua;
+	margin: 50px;
 	border-radius: 20px;
-	text-shadow: 3px 3px 1px #999999;
+	border: solid 2px #eeee22
 }
 img {
+}
+div.profile_img{
+	text-align: center;
 	border-radius: 50%;
 	box-shadow: 5px 5px 10px;
 }
-div.img{
-	text-align: center;
-}
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
